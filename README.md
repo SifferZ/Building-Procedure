@@ -1,7 +1,7 @@
 # Building Procedure
 
 We encourge you to follow this general guide when building in Roblox Studio.
-This guide's purpose is to create the best workflow and best practices for all team members to work together with ease.
+This guide's purpose is to create the best practices and workflow for all team members to work together with ease.
 
 ## General:
 - Anything that a Script requires access to should be easy to find within the **Explorer**
@@ -10,8 +10,20 @@ This guide's purpose is to create the best workflow and best practices for all t
 - **Never Use Terrain**
 
 ## Naming Conventions:
+- Never use abbverations, names should always be [Verbose](https://dictionary.cambridge.org/dictionary/english/verbose)
+- Rule of thumb: If you can't find a specific asset within 10 seconds in Explorer you have a problem
+
+## Scriptables:
 
 ## Organization:
+- Group assets and parts together in folders. Attempt to group them at the smallest,
+yet reasonable level possible (A folder for a room is good. An individual folder for
+every part in a room is not).
+- In general, group interior builds (ex. inside a house, spaceship) according to rooms;
+group exterior builds (islands, villages, parks) according to distinctive areas of the
+map.
+
+## Automation:
 
 ## Colors and Lighting:
 - **Building style: Low poly, cartoony, saturated bright and cheerful**
@@ -33,9 +45,10 @@ tunnels.
 - Nerver allow players’ head to clip into walls, ceilings, floors, or objects
 - Nerver allow gaps in Builds
 
-## Plugins:
-- [Collection Tag Editor](https://devforum.roblox.com/t/tag-editor-plugin/)
-
+## Collection Tags:
 ## Before Publishing:
 - Make sure to Playtest EVERYTHING
 - Make sure to Anchor EVERYTHING
+
+## Plugins:
+- [Collection Tag Editor](https://devforum.roblox.com/t/tag-editor-plugin/)
